@@ -1,3 +1,77 @@
-<h1>
-  {{title}}
-</h1>
+<div>
+  <span>
+    Just now  : {{ date }}
+  </span>
+  <hr/>
+  date
+  {{ date | dateToTimeAgo }}
+
+  <hr/> timestamp
+  {{ +date | dateToTimeAgo }}
+
+  <hr/>
+  <span>
+    Yesterday : {{ yesterday }}
+  </span>
+  <hr/>
+  date:
+  {{ yesterday | dateToTimeAgo }}
+
+  <hr/> timestamp:
+  {{ +yesterday | dateToTimeAgo }}
+
+    <hr/>
+  <span>
+    two days ago : {{ twodaysago }}
+  </span>
+  <hr/>
+  date:
+  {{ twodaysago | dateToTimeAgo }}
+
+  <hr/> timestamp:
+  {{ +twodaysago | dateToTimeAgo }}
+
+    <hr/>
+  <span>
+    One month ago : {{ monthago }}
+  </span>
+  <hr/>
+  date:
+  {{ monthago | dateToTimeAgo }}
+
+  <hr/> timestamp:
+  {{ +monthago | dateToTimeAgo }}
+
+    <hr/>
+  <span>
+    two month ago : {{ twomonthsago }}
+  </span>
+  <hr/>
+  date:
+  {{ twomonthsago | dateToTimeAgo }}
+
+  <hr/> timestamp:
+  {{ +twomonthsago | dateToTimeAgo }}
+    <hr/>
+  <span>
+    One year ago : {{ yearago }}
+  </span>
+  <hr/>
+  date:
+  {{ yearago | dateToTimeAgo }}
+
+  <hr/> timestamp:
+  {{ +yearago | dateToTimeAgo }}
+
+
+      <hr/>
+  <span>
+  two year ago : {{ twoyearsago }}
+  </span>
+  <hr/>
+  date:
+  {{ twoyearsago | dateToTimeAgo }}
+
+  <hr/> timestamp:
+  {{ +twoyearsago | dateToTimeAgo }}
+</div>

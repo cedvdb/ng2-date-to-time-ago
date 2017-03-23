@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  date = new Date();
+  yesterday = new Date( +new Date() - 1000*60*60*24);
+  twodaysago = new Date( +new Date() - 1000*60*60*24 * 2);
+  monthago = new Date( + new Date() - 1000*60*60*24*31 );
+  twomonthsago = new Date( + new Date() - 1000*60*60*24*31 *2);
+  yearago = new Date( + new Date() - 1000*60*60*24*365 );
+  twoyearsago = new Date( + new Date() - 1000*60*60*24*365 *2);
+  constructor(){
+
+  }
 }

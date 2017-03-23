@@ -1,0 +1,27 @@
+{
+  "name": "date-ago-pipe",
+  "version": "1.0.0",
+  "description": "date to time ago pipe angular 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cedvdb/ng2-date-to-time-ago.git"
+  },
+  "keywords": [
+    "date",
+    "ago",
+    "pipe",
+    "angular",
+    "2",
+    "time"
+  ],
+  "author": "cedvdb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cedvdb/ng2-date-to-time-ago/issues"
+  },
+  "homepage": "https://github.com/cedvdb/ng2-date-to-time-ago#readme"
+}
